@@ -23,7 +23,7 @@ export default function Card({
             <span class="temp">{temp.toFixed(1)} C&deg;</span>
             <span class="location">{name}</span>
             <p>{main}</p>
-            {/* <p>{description}</p> */}
+            <p>•{description}</p>
           </div>
           <div class="currentWeather">
             <span class="conditions">

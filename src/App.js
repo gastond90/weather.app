@@ -20,6 +20,16 @@ export default function App() {
 
   return (
     <div>
+      <nav class='navv'>
+  <ul class="container">
+  
+    <li class='dropdown'>
+    <h5>Weather App ☁</h5>
+    </li>
+    <li><h5>2022</h5></li>
+    
+  </ul>
+</nav>
       <div>
         <input
           value={location}
@@ -48,6 +58,7 @@ export default function App() {
           />
         )}
       </div>
+      
     </div>
   );
 }

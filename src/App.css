@@ -45,3 +45,74 @@ body {
   font-family: "Anek Latin", sans-serif;
   display: block;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: none;
+  width: 1000px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+nav {
+  background: rgba(217, 211, 211, 0.326);
+  font-size: 0;
+  position: relative;
+  color: #eee;
+}
+
+nav > ul > li {
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 15px;
+  position: relative;
+}
+
+nav > ul > li > a {
+  color: #fff;
+  display: block;
+  padding: 20px 0;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+nav > ul > li:hover > a {
+  color: #444;
+  border-bottom: 3px solid #444;
+}
+
+.dropdown {
+  position: static;
+  color: #eee;
+}
+
+.dropdown:hover .mega-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+h5 {
+  margin-top: 0%;
+  font-size: larger;
+}
+
+.navv {
+  display: flex;
+  justify-content: flex-end;
+  height: 25px;
+}
