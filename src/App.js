@@ -26,7 +26,8 @@ export default function App() {
     <li class='dropdown'>
     <h5>Weather App ☁</h5>
     </li>
-    <li><h5>2022</h5></li>
+    
+    <li>Ton Duba 2022☕</li>
     
   </ul>
 </nav>
